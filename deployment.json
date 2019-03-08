@@ -1,0 +1,27 @@
+{
+  "applications": [
+    {
+      "application": "my-app-319",
+      "parts": [
+        {
+          "shared": {},
+          "extra": {
+            "category": "import"
+          },
+          "capabilities": [
+            {
+              "module": "import",
+              "props": {
+                "gitImportUrl": "https://github.com/fabric8-launcher/launcher-frontend",
+                "builderImage": "nodeshift/centos7-s2i-nodejs"
+              },
+              "extra": {
+                "category": "import"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
